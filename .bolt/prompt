@@ -1,0 +1,11 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react for logos.
+
+Use stock photos from unsplash where appropriate, only valid URLs you know exist. Do not download the images, only link to them in image tags.
+
+I want the website to have a really smooth flow of data animations. If you have any suggestions after making a change, ask the user if they want to proceed. Give the user suggestions as well to make it even better. If there are any videos, make sure to embed them. My version should be functional on both desktop and mobile-friendly versions as well. 
+
+If there are any emails or phone numbers, they should be accessible with a click, so they should be clickable.

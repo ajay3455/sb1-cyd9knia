@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base mobile padding adjustments */
+@media (max-width: 767px) {
+  main {
+    padding-bottom: calc(24rem + env(safe-area-inset-bottom, 1rem));
+    min-height: calc(100vh - 4rem);
+  }
+
+  /* Page-specific padding adjustments */
+  .category-list-main {
+    padding-bottom: calc(36rem + env(safe-area-inset-bottom, 1rem));
+  }
+
+  .issue-list-main {
+    padding-bottom: calc(28rem + env(safe-area-inset-bottom, 1rem));
+  }
+
+  .issue-detail-main {
+    padding-bottom: calc(30rem + env(safe-area-inset-bottom, 1rem));
+  }
+
+  .contact-page-main {
+    padding-bottom: calc(28rem + env(safe-area-inset-bottom, 1rem));
+  }
+
+  /* Bottom banner positioning */
+  .mobile-banner {
+    bottom: calc(8rem + env(safe-area-inset-bottom, 1rem));
+  }
+
+  /* Enhanced touch targets */
+  button, 
+  a[href],
+  input,
+  select,
+  textarea {
+    min-height: 48px;
+    min-width: 48px;
+  }
+
+  /* Vertical spacing adjustments */
+  .space-y-2 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Typography scaling */
+  .text-sm {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  .text-xs {
+    font-size: 0.75rem;
+    line-height: 1.25;
+  }
+
+  .text-base {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+  /* Modal and dialog adjustments */
+  .fixed.inset-0 {
+    padding: 1.25rem;
+  }
+
+  /* Contact button adjustments */
+  .contact-button {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+  }
+
+  /* Emergency contact adjustments */
+  .emergency-number {
+    font-size: 1rem;
+    padding: 0.875rem 1.25rem;
+  }
+
+  /* Card spacing adjustments */
+  .card-spacing {
+    margin-bottom: 1.5rem;
+  }
+
+  /* Section spacing */
+  .section-spacing {
+    margin-bottom: 2rem;
+  }
+}
